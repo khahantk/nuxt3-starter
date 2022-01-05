@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     publicRuntimeConfig: {
         apiURL: process.env.API_URL
             ? process.env.API_URL
-            : `${process.env.NUXT_ENV_VERCEL_URL}/api/graphql`,
+            : `https://${process.env.NUXT_ENV_VERCEL_URL}/api/graphql`,
     },
     plugins: [],
     // loading config
