@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "nuxi preview"
   },
   "devDependencies": {
     "bootstrap": "^5.1.3",
